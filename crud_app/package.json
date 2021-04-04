@@ -1,0 +1,23 @@
+{
+  "name": "crud_app",
+  "version": "1.0.0",
+  "description": "SGU - Sistema de Gerenciamento de Úsuarios",
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Douglas Holanda",
+  "license": "ISC"
+}
